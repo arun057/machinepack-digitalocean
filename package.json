@@ -1,0 +1,31 @@
+{
+  "name": "machinepack-digitalocean",
+  "version": "0.1.0",
+  "description": "Communicate with DigitalOcean API to create, destroy, list, manage droplets",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "DigitalOcean",
+    "machines",
+    "machinepack",
+    "digitalocean-api"
+  ],
+  "author": "Arunram Kalaiselvan",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^3.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arun057/machinepack-digitalocean.git"
+  },
+  "machinepack": {
+    "friendlyName": "DigitalOcean",
+    "machineDir": "machines/",
+    "machines": ["say-hello"]
+  }
+}

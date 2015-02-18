@@ -4,6 +4,9 @@
   machinepack-digitalocean
 </h1>
 
+# TODO::
+* Everything
+
 ### [Docs](http://node-machine.org/machinepack-digitalocean) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
 Communicate with DigitalOcean API to create, destroy, list, manage droplets
